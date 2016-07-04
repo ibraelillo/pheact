@@ -1,0 +1,25 @@
+{
+    "name": "iespinosa/pheact",
+    "description": "Php library for rendering javascript applications in server side",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^5.4",
+        "symfony/var-dumper": "^3.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ibrael Espinosa",
+            "email": "iespinosa-prestataire@vente-privee.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.19"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pheact\\": "src/",
+            "Pheact\\Tests\\": "tests/"
+        }
+    }
+}
